@@ -55,25 +55,6 @@ Required packages:
 
 ---
 
-## Data
-
-Download the dataset from:
-
-**Baidu Netdisk**
-
-```
-https://pan.baidu.com/s/1bfAfIgvi9Gfhlf3SIgrdUw
-Code: ucas
-```
-
-File used:
-
-```
-LDC2_spritz_mbhb1_training_v1.h5
-```
-
----
-
 ## How to Run
 
 ### 1. Time-Frequency Visualization (WDM-like)
@@ -102,7 +83,7 @@ Output:
 
 ---
 
-## 📊 Methods
+## Methods
 
 ### Time-Frequency Analysis
 
