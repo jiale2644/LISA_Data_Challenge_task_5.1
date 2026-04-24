@@ -1,0 +1,15 @@
+name: LISA
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - numpy
+  - scipy
+  - matplotlib
+  - h5py
+  - logzero
+  - pip:
+      - WDMWaveletTransforms
+# to use: conda env create -f environment.yml
