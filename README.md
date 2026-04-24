@@ -6,7 +6,7 @@ This repository contains solutions for **Subtask 1** of the LISA Data Challenge:
 
 ---
 
-## 📌 Task Overview
+## Task Overview
 
 The goal of this project is to:
 
@@ -18,7 +18,7 @@ The goal of this project is to:
 
 ---
 
-## 📂 Repository Structure
+## Repository Structure
 
 ```
 
@@ -36,7 +36,7 @@ The goal of this project is to:
 
 ---
 
-## ⚙️ Environment Setup
+## Environment Setup
 
 Create the environment using:
 
@@ -55,7 +55,7 @@ Required packages:
 
 ---
 
-## 📥 Data
+## Data
 
 Download the dataset from:
 
@@ -74,7 +74,7 @@ LDC2_spritz_mbhb1_training_v1.h5
 
 ---
 
-## ▶️ How to Run
+## How to Run
 
 ### 1. Time-Frequency Visualization (WDM-like)
 
@@ -104,7 +104,7 @@ Output:
 
 ## 📊 Methods
 
-### 🔹 Time-Frequency Analysis
+### Time-Frequency Analysis
 
 Instead of directly using the WDM implementation (which showed instability in this environment), a **spectrogram-based approach** was used:
 
@@ -121,7 +121,7 @@ This produces a stable time-frequency representation that highlights:
 
 ---
 
-### 🔹 Fractional Fourier Transform (FRFT)
+### Fractional Fourier Transform (FRFT)
 
 FRFT is used to analyze chirp-like signals:
 
@@ -137,7 +137,7 @@ Enhancements applied:
 
 ---
 
-## 📈 Results
+## Results
 
 ### Time-Frequency Plot
 
@@ -152,7 +152,7 @@ Enhancements applied:
 
 ---
 
-## ⚠️ Notes
+## Notes
 
 * The provided `frft.py` implementation may be **unstable for certain α values**
 
@@ -165,7 +165,7 @@ Enhancements applied:
 
 ---
 
-## 📚 References
+## References
 
 * LISA Data Challenge:
   [https://lisa-ldc.in2p3.fr/](https://lisa-ldc.in2p3.fr/)
@@ -175,14 +175,3 @@ Enhancements applied:
 
 ---
 
-## ✅ Submission
-
-This repository fulfills the requirements:
-
-✔ HDF5 data reading
-✔ Time-frequency visualization
-✔ FRFT analysis
-✔ Python implementation
-✔ GitHub submission
-
----
